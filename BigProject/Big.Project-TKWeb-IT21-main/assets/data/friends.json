@@ -1,0 +1,73 @@
+[{
+    "id": 1,
+    "image": "nguyencongphuong.png",
+    "name": "Nguyễn Công Phượng"
+}, {
+    "id": 2,
+    "image": "hongocha.jpg",
+    "name": "Hồ Ngọc Hà"
+}, {
+    "id": 3,
+    "image": "tranthanh.jpg",
+    "name": "Huỳnh Trấn Thành"
+}, {
+    "id": 4,
+    "image": "lecongvinh.jpg",
+    "name": "Lê Công Vinh"
+}, {
+    "id": 5,
+    "image": "phamnhatvuong.webp",
+    "name": "Phạm Nhật Vượng"
+}, {
+    "id": 6,
+    "image": "danglenguyenvu.jpg",
+    "name": "Đặng Lê Nguyên Vũ"
+}, {
+    "id": 7,
+    "image": "ngobaochau.jpg",
+    "name": "Ngô Bảo Châu"
+}, {
+    "id": 8,
+    "image": "madihu.jpg",
+    "name": "Madihu"
+}, {
+    "id": 9,
+    "image": "ynhi.jpg",
+    "name": "Huỳnh Trần Ý Nhi"
+}, {
+    "id": 10,
+    "image": "diepbang.jpg",
+    "name": "Trần Diệp Băng"
+}, {
+    "id": 11,
+    "image": "thuytien.jpg",
+    "name": "Nguyễn Thúc Thùy Tiên"
+}, {
+    "id": 12,
+    "image": "rhyder.jpg",
+    "name": "Quang Anh"
+}, {
+    "id": 13,
+    "image": "viethuong.jpg",
+    "name": "Việt Hương"
+}, {
+    "id": 14,
+    "image": "noo.jpg",
+    "name": "Noo Phước Thịnh"
+}, {
+    "id": 15,
+    "image": "xuanbac.jpg",
+    "name": "Xuân Bắc"
+}, {
+    "id": 16,
+    "image": "ngothanhvan.jpg",
+    "name": "Ngô Thanh Vân"
+}, {
+    "id": 17,
+    "image": "kienhuy.jpg",
+    "name": "Ngô Kiến Huy"
+}, {
+    "id": 18,
+    "image": "anhtu.jpg",
+    "name": "Anh Tú"
+}]
