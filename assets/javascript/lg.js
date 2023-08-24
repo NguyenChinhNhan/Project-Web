@@ -7,6 +7,8 @@ window.onload = function() {
   const createAccountLink = document.querySelector('.register a');
   const signUpBtn = signUpForm.querySelector('#loginBtn');
   const resetBtn = resetForm.querySelector('#loginBtn');
+  var sendCodeButton = document.querySelector('#resetForm button');
+  var email = resetForm.querySelector('input[name="email"]');
   
   signUpBtn.addEventListener('click', function(event) {
       var username = signUpForm.querySelector('input[name="username"]');
@@ -18,14 +20,22 @@ window.onload = function() {
           alert('Vui lòng nhập đầy đủ thông tin.');
       }
   });
+  sendCodeButton.addEventListener('click', function(event) {
+    var email = resetForm.querySelector('input[name="email"]');
+
+    if (email.value === '') {
+        event.preventDefault();
+        alert('Vui lòng nhập địa chỉ email.');
+    }
+});
+sendCodeButton.addEventListener('click', function() {
+  resetForm.style.transition = '1s'; 
+  resetForm.style.display = 'none';
   
-  resetBtn.addEventListener('click', function(event) {
-      var email = resetForm.querySelector('input[name="email"]');
-  
-      if (email.value === '') {
-          event.preventDefault();
-          alert('Vui lòng nhập địa chỉ email.');
-      }
+  setTimeout(function() { 
+    signInForm.style.transition = '1s'; 
+    signInForm.style.display = 'block';
+  }, 100); 
   });
   
   forgottenPasswordLink.addEventListener('click', function(event) {
@@ -35,7 +45,6 @@ window.onload = function() {
     signInForm.style.display = 'none';
     resetForm.style.display = 'flex';
   });
-  
   
   createAccountLink.addEventListener('click', function(event) {
     event.preventDefault();
@@ -73,16 +82,11 @@ window.onload = function() {
   signInForm.style.display = 'flex';
   signUpForm.style.display = 'none';
   });
-  var sendCodeButton = document.querySelector('#resetForm button');
-  sendCodeButton.addEventListener('click', function() {
-  resetForm.style.transition = '1s'; 
-  resetForm.style.display = 'none';
   
-  setTimeout(function() { 
-    signInForm.style.transition = '1s'; 
-    signInForm.style.display = 'block';
-  }, 100); 
-  });
+  
+    
+    
+  
   
   var signUpButton = document.querySelector('#signUpForm button');
   signUpButton.addEventListener('click', function() {
